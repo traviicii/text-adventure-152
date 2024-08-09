@@ -1,8 +1,8 @@
 from colorama import Fore, Style # pip install colorama
 import random
-from helper import d, fancy, clear, bar
-from HealthBar import HealthBar
-from ExpBar import ExpBar
+from ..helper import d, fancy, clear, bar
+from ..HealthBar import HealthBar
+from ..ExpBar import ExpBar
 
 
 class Character():
