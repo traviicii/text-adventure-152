@@ -1,7 +1,7 @@
 
 from helper import bar, clear
-from Character import Character
-from chapter1 import intro
+from character_classes.Character import Character
+from storyline.chapter1 import intro
 
 def new_character():
     name = input("Please enter your character's name: ")
@@ -9,7 +9,17 @@ def new_character():
     return new_character
 
 
-
+# -text-adventure
+#     -storyline
+#         -chapter1.py
+#     -character_classes
+#         -Chatacter.py
+#         -Wizard.py
+#     -inventory
+#         -Item.py
+#         -Weapon.py
+#     -helper.py
+#     -main.py
 
 def main():
     current_character = None

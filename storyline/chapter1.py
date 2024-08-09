@@ -1,4 +1,4 @@
-from helper import d, clear
+from ..helper import d, clear
 
 '''
 -- Used ChatGTP to initate a story

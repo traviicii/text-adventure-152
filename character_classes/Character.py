@@ -1,6 +1,6 @@
 from colorama import Fore, Style # pip install colorama
 import random
-from helper import d, fancy, bar, clear
+from helper import d, fancy, clear, bar
 from HealthBar import HealthBar
 from ExpBar import ExpBar
 
