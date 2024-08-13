@@ -1,5 +1,6 @@
 
+from Item import Item
 
-class Weapon():
+class Weapon(Item):
 
     pass
