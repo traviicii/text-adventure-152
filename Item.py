@@ -44,6 +44,8 @@ class Potion(Item):
         super().__init__(value, name, desc, item_type)
         self.rarity = rarity
         self.effect = self.effects # how is this structured and dealth with? 
+
+    
         
 
 
