@@ -1,4 +1,4 @@
-from character_classes.Character import Character
+from Character import Character
 
 
 class Wizard(Character):

@@ -1,5 +1,5 @@
-from helper import d, clear
-from Character import Character
+from tools.helper import d, clear
+from classes.Character import Character
 from ascii_magic import AsciiArt, Back
 from PIL import ImageEnhance, Image, ImageFilter
 import random

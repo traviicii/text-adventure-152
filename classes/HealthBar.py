@@ -36,3 +36,4 @@ class HealthBar():
             self.color = self.colors['red']
         print(f"{self.character.name}'s HEALTH: {self.character.hp}/{self.max_value}")
         print(f"{self.barrier}{self.color}{self.symbol_remaining * remaining_bars}{self.symbol_lost * lost_bars}{self.colors["default"]}{self.barrier}")
+

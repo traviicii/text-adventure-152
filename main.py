@@ -1,7 +1,7 @@
 
-from helper import bar, clear
-from Character import Character
-from chapter1 import intro, chapter1
+from tools.helper import bar, clear
+from classes.Character import Character
+from core.chapter1 import intro, chapter1
 
 def new_character():
     name = input("Please enter your character's name: ")
